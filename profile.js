@@ -11,7 +11,6 @@ var util = require("util");
 function Profile(username) {
 
     EventEmitter.call(this);
-    console.log("this", this);
     profileEmitter = this;
 
     //Connect to the API URL (https://teamtreehouse.com/username.json)

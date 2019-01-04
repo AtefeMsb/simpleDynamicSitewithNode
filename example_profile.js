@@ -15,3 +15,6 @@ studentProfile.on("end", console.dir);
 * error object is passed in to the handler or callback
 **/
 studentProfile.on("error", console.error);
+
+
+studentProfile.on("data", console.dir);
